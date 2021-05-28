@@ -6,7 +6,7 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "Xinlong's blog",
+  title: "Xin's blog",
   description: 'a front-end Learning document',
   base: '/blog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
