@@ -72,8 +72,8 @@ module.exports = [{
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '面试题库',
-        items: [{
+        // text: '面试题库',
+        // items: [{
             text: '前端框架面试题汇总', 
             link: '/pages/1ddc23/'
           },
@@ -88,8 +88,8 @@ module.exports = [{
           {
             text: '其它',
             link: '/pages/6ca7fa/'
-          },
-        ],
+          // },
+        // ],
       },
       // {
       //   text: '面试心得',
