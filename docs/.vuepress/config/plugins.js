@@ -98,13 +98,14 @@ module.exports = [
   //     },
   //   },
   // ],
-  [
-    '@vuepress/last-updated', // "上次更新"时间格式
-    {
-      transformer: (timestamp, lang) => {
-        const dayjs = require('dayjs') // https://day.js.org/
-        return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-      },
-    },
-  ],
+  // 添加下面的插件后，“上次更新”不显示了
+  // [
+  //   '@vuepress/last-updated', // "上次更新"时间格式
+  //   {
+  //     transformer: (timestamp, lang) => {
+  //       const dayjs = require('dayjs') // https://day.js.org/
+  //       return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+  //     },
+  //   },
+  // ],
 ]
