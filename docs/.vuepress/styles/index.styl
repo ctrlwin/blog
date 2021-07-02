@@ -58,9 +58,26 @@ body .vuepress-plugin-demo-block__wrapper
     svg
       fill: $accentColor !important;
 
+// 导航栏
+.navbar
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, 0);
+  .home-link
+    .site-name
+      color: #ffffff;
+
 // 首页大图
 .home-wrapper .banner 
-//  background-position-y:-35px !important;
+  margin-top: 0 !important;
+  height: 100vh !important;
+  min-height: 500px !important;
+  transition: all .5s ease;
+  .banner-content
+    position: relative;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    .hero
+      margin-top: 0 !important;
 
 // 首页头像
 .blogger-wrapper .avatar
