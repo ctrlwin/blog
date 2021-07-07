@@ -7,12 +7,13 @@ module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: '/img/yinliao.png', // 导航栏logo
-  // repo: 'ctrlwin', // 导航栏右侧生成Github链接
+  repo: '/ctrlwin/blog', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+  docsBranch: 'doc',
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
-  editLinkText: '编辑',
+  editLinkText: '在GitHub上编辑',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
@@ -25,7 +26,7 @@ module.exports = {
     // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
     // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
     // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
-    '/blog/img/007.jpg',
+    // '/blog/img/007.jpg',
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 1.0, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 

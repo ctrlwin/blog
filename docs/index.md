@@ -147,9 +147,14 @@ export default {
 
   methods: {
     scrollFn() {
-      const windowH = document.getElementsByClassName('hero')[0].clientHeight; // 获取窗口高度
-      console.log(windowH)
-      document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
+      const windowH = document.getElementsByClassName('banner')[0].clientHeight; // 获取窗口高度
+      var timer, scrollTop = document.documentElement.scrollTop
+        timer = setInterval(() => {
+            document.documentElement.scrollTop += 60; // 滚动条滚动到指定位置
+            if (document.documentElement.scrollTop >= windowH) {
+                clearInterval(timer)
+            }
+        }, 10)
     }
   }
 }

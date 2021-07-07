@@ -59,25 +59,28 @@ body .vuepress-plugin-demo-block__wrapper
       fill: $accentColor !important;
 
 // 导航栏
-.navbar
+ .navbar
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .1);
   background: rgba(0, 0, 0, 0);
-  .home-link
-    .site-name
-      color: #ffffff;
 
 // 首页大图
 .home-wrapper .banner 
   margin-top: 0 !important;
   height: 100vh !important;
   min-height: 500px !important;
-  transition: all .5s ease;
-  .banner-content
+  width:100% !important;
+  transition: width, height .5s ease;
+
+.home-wrapper .banner .banner-conent
+  top: 50%;
+  transform: translateY(-50%);
+ .hero
     position: relative;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    .hero
-      margin-top: 0 !important;
+    margin-top: 0 !important;
+    height: 200px;
+    .anchor-down
+      bottom: 35px !important;
+      bottom: 20% !important;
 
 // 首页头像
 .blogger-wrapper .avatar
