@@ -148,10 +148,11 @@ export default {
   methods: {
     scrollFn() {
       const windowH = document.getElementsByClassName('banner')[0].clientHeight; // 获取窗口高度
-      var timer, scrollTop = document.documentElement.scrollTop
+      var timer
         timer = setInterval(() => {
             document.documentElement.scrollTop += 60; // 滚动条滚动到指定位置
-            if (document.documentElement.scrollTop >= windowH) {
+            if (document.documentElement.scrollTop > windowH) {
+              document.documentElement.scrollTop = windowH
                 clearInterval(timer)
             }
         }, 10)
