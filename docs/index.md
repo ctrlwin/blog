@@ -5,7 +5,8 @@ heroText: Xin's blog
 # tagline: 不积跬步，无以至千里；不积小流，无以成江海。
 actionText: 立刻进入 →
 # actionLink: /web/
-bannerBg: '/img/161.png'
+# bannerBg: '/img/161.png'
+bannerBg: 'none'
  # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式
  # 提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
