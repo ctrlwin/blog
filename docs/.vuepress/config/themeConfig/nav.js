@@ -16,7 +16,7 @@ module.exports = [{
           },
           {
             text: 'CSS',
-            link: '/pages/0a83b083bdf257cb/'
+            link: '/pages/c8f128/'
           },
           {
             text: 'JavaScript',
@@ -24,7 +24,11 @@ module.exports = [{
           },
           {
             text: 'Vue',
-            link: '/pages/5d463fbdb172d43b/'
+            link: '/pages/778426/'
+          },
+          {
+            text: 'CSS扩展语言',
+            link: ''
           },
         ],
       },

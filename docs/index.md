@@ -95,7 +95,7 @@ bannerBg: 'none'
   height: 20px;
   font-size: 34px;
   text-align: center;
-  animation: bounce-in 5s 3s infinite;
+  animation: bounce-in 5s 2s infinite;
   position: absolute;
   left: 50%;
   bottom: 30%;

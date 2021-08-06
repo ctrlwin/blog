@@ -50,7 +50,7 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'ctrlwin', // 必需
-    link: 'https://github.com/ctrlwin', // 可选的
+    link: 'https://github.com/  ctrlwin', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
@@ -63,9 +63,9 @@ module.exports = {
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:2325029645@qq.com',
+        iconClass: 'icon-bilibili',
+        title: 'bilibili',
+        link: 'www.bilibili.com',
       },
       {
         iconClass: 'icon-github',
@@ -73,17 +73,17 @@ module.exports = {
         link: 'https://github.com/ctrlwin',
       },
       {
-        iconClass: 'icon-erji',
+        iconClass: 'icon-juejin',
         title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
+        link: 'https://juejin.cn/',
       },
     ],
   },
   footer: {
     // 页脚信息
-    createYear: 2021, // 博客创建年份
+    createYear: 2021-03-24, // 博客创建年份
     copyrightInfo:
-      'Ctrlwin | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Xin | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }

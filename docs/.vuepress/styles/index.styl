@@ -62,6 +62,10 @@ body .vuepress-plugin-demo-block__wrapper
  .navbar
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .1);
   background: rgba(0, 0, 0, 0);
+  .sidebar-button
+    background-color: var(--blurBg);
+    box-shadow 0 2px 6px rgba(0, 0, 0, 0.15)
+    transition: all 0.5s;
 
 // 首页大图
 .home-wrapper .banner 
@@ -83,7 +87,10 @@ body .vuepress-plugin-demo-block__wrapper
       bottom: 20% !important;
 
 // 首页头像
-.blogger-wrapper .avatar
+.home-wrapper .blogger-wrapper .avatar
     height:235px;
- img
-    object-fit:cover;
+    img
+      object-fit:cover;
+
+.footer
+  color: #b8b8b8 !important;
