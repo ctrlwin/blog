@@ -50,13 +50,13 @@ module.exports = {
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     name: 'ctrlwin', // 必需
-    link: 'https://github.com/  ctrlwin', // 可选的
+    link: 'https://github.com/ctrlwin', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: '/blog/img/avatar.png',
+    avatar: '/blog/img/avatar.jpg',
     name: 'Xin',
-    slogan: '接口测试工程师',
+    slogan: '英雄可不能临阵脱逃啊~',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -74,14 +74,14 @@ module.exports = {
       },
       {
         iconClass: 'icon-juejin',
-        title: '听音乐',
+        title: '掘金',
         link: 'https://juejin.cn/',
       },
     ],
   },
   footer: {
     // 页脚信息
-    createYear: 2021-03-24, // 博客创建年份
+    createYear: 2021, // 博客创建年份
     copyrightInfo:
       'Xin | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },

@@ -139,6 +139,10 @@ module.exports = [{
         text: 'mock.js',
         link: '/pages/a93c43/'
       },
+      {
+        text: '奇技淫巧',
+        link: '/pages/156f70/'
+      },
     ],
   },
   // {
