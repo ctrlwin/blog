@@ -27,6 +27,10 @@ module.exports = [{
             link: '/pages/778426/'
           },
           {
+            text: '组件与插件',
+            link: '/pages/00dfcb/'
+          },
+          {
             text: 'CSS扩展语言',
             link: ''
           },
